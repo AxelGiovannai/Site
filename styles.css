@@ -1,0 +1,43 @@
+body {
+    background-color: #181a1b;
+    color: white; /* Pour que le texte soit lisible sur fond sombre */
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white; /* Liens en blanc */
+    text-decoration: none; /* Supprimer la décoration par défaut des liens */
+}
+
+nav ul li strong {
+    color: white; /* Titre en blanc */
+    margin-right: 30px; /* Ajouter un espace après le titre */
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 300px; /* Largeur augmentée pour rendre les images rectangulaires */
+    height: 200px; /* Hauteur ajustée */
+    object-fit: cover;
+    margin: 5px; /* Réduire la marge pour réduire l'écart entre les images */
+}
